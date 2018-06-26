@@ -1,0 +1,131 @@
+body {
+  font-family:sans-serif;
+  margin:0;
+  padding:0;
+  background-color: #add8e6;
+  z-index:1;
+  }
+
+  .BigHeader i, .Header i{
+    padding-right: 5px;
+    
+  }
+  body::after {
+  content:"";
+  position:fixed;
+  z-index:-1;
+  width:100%;
+  height:100%;
+  background-image:url(./Layout/assets/background.png);
+  opacity:.8;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  }
+  
+  .NavBar {
+  color:gray;
+  padding-top:100px;
+  }
+  
+  .NavBar li {
+  border-bottom:1px solid gray;
+  }
+  
+  .red {
+  color:#116a94;
+  font-weight:700;
+  border-bottom:2px solid rgb(247, 239, 204,0.01)!important;
+    }
+
+  .BigHeader li {
+  border-bottom:2px solid gray;
+  border-radius:5px 5px 0 0;
+  height:1px;
+  display:inline-block;
+  margin:0 5px;
+  padding:15px 50px 30px;
+  }
+  
+  .Header li {
+  border-bottom:2px solid gray;
+  border-radius:5px 5px 0 0;
+  height:1px;
+  display:inline-block;
+  margin:0 5px;
+  padding:15px 20px 30px;
+  }
+  
+  .SmallHeader li {
+  border:2px solid gray;
+  border-bottom:2px solid gray;
+  border-radius:5px 5px 0 0;
+  display:inline-block;
+  margin:0 5px;
+  padding:10px 20px;
+  }
+  
+  .InfoPage {
+  background-color:rgba(246, 238, 202, 0.8);
+  color:#000;
+  width:75%;
+  text-align:center;
+  border-bottom:10px solid #000;
+  border-top:0;
+  position:relative;
+  overflow:auto;
+  border-radius:5px 5px 10px 10px;
+  margin:auto;
+  padding:50px;
+  transform-origin: top;
+  overflow: hidden;
+  animation: 
+    stretch
+    1.5s
+   forwards;
+  }
+
+@keyframes stretch {
+  0% {
+    transform: scaleY(0.8);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+  .BigHeader,.Header,.SmallHeader {
+  list-style-type:none;
+  text-align:center;
+  border-bottom:0;
+  width:100%;
+  white-space:nowrap;
+  float:left;
+  position:relative;
+  margin:0;
+  padding:0;
+  
+  }
+
+  .BigHeader li,.Header li,.SmallHeader li{
+    background-color:rgba(247, 239, 204, 0.8);
+    }
+  
+  .BigHeader li a,.Header li a,.SmallHeader li a {
+  border:0;
+  font-size:90%;
+  margin:0;
+  padding:0;
+  }
+  
+  .Header li:hover,.SmallHeader li:hover,.BigHeader li:hover {
+  color: rgb(14, 32, 41);
+  }
+
+  @media only screen and (min-width: 1514px) {
+  .InfoPage {
+    width: 55%;
+  }
+}
+

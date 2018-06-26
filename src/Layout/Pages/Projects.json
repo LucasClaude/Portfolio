@@ -1,0 +1,22 @@
+{ 
+    "Project": {
+                "Project1": {
+                        "Name": "Harambe: The Last Stand", 
+                        "Description": "I completed a fully working well-designed game in Unity. Includes: C#, Photoshop all original content. My professor (head of CS department) uses this project as an example for prospective students touring the school.",
+                        "Link": "Bonjour"
+                             },
+                
+                "Project2": {
+                        "Name": "Software Engineering Project", 
+                        "Description": "Developed a well-designed IOS application using Swift and Xcode. The project is being used for several research project by the client. This project uses the accelerometer in iOS devices for injury and balance research and injury rehabilitation.",
+                        "Link": "Bonjour2"
+                             },
+
+                "Project3": {
+                         "Name": "React JS Web Portfolio", 
+                         "Description": "React JS, CSS, html, Web Project. It is this page you are currently on. Developed for personal use and for learning React and Redux",
+                         "Link": "Bonjour3"
+    }
+
+}
+}

@@ -1,0 +1,405 @@
+.about img {
+    height:200px;
+    float:left;
+    border-radius:10px;
+    border:5px solid #000;
+    margin-right:15px;
+    border-bottom:100px;
+    }
+    
+    .Inform {
+    margin-left:10px;
+    width:100%;
+    margin-right:0;
+    padding-right:0;
+    }
+    
+    .name {
+    font-size:50px;
+    margin:5px;
+    }
+    
+    .degree {
+    color:gray;
+    margin:5px;
+    }
+    
+    .Bio {
+    color:gray;
+    margin:5px 0 5px 5px;
+    }
+    
+    .left {
+    width:60%;
+    display:inline;
+    float:left;
+    }
+    
+    .right {
+    width:31.33%;
+    display:inline;
+    margin:0;
+    }
+    
+    .links {
+    width:100%;
+    }
+    
+    .other {
+    float:left;
+    margin-left:15px;
+    width:30%;
+    }
+    
+    .other li {
+    border-bottom:1px solid rgba(128,128,128,0.3);
+    }
+    
+    .other ul {
+    padding-left:10px;
+    border-left:1px solid rgba(128,128,128,0.3);
+    }
+    
+    .other p {
+    color:#116a94;
+    margin:20px 100px 7px 0;
+    }
+    
+    li {
+    list-style-type:none;
+    }
+    
+    .links li {
+    display:inline-block;
+    width:30%;
+    color:rgba(128,128,128,0.8);
+    border:1px solid rgba(128,128,128,0.5);
+    border-radius:10px;
+    margin:20px 20px 0 0;
+    }
+    
+    .links li a {
+    color:#116a94;
+    font-weight:700;
+    font-size:15px;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+    }
+    
+    .links ul {
+    width:100%;
+    display:inline-block;
+    padding:0;
+    }
+    
+    .icon {
+    float:left;
+    padding:0 0 0 10px;
+    }
+    
+    .bottomLinks {
+    width:33.33%;
+    }
+    
+    .rightLink {
+    width:80%;
+    float:right;
+    padding-top:18px;
+    }
+    
+    .rightLink p {
+    margin:0;
+    padding:0;
+    }
+    
+    .image {
+    position:relative;
+    }
+    
+    .image img {
+    width:100%;
+    border-radius:20px;
+    margin:0;
+    }
+    
+    .image-overlay {
+    border-radius:20px;
+    position:absolute;
+    z-index:5;
+    top:0;
+    overflow:hidden;
+    width:100%;
+    height:99%;
+    background-color:rgba(17,106,148,0.6);
+    text-align:center;
+    opacity:0;
+    filter:alpha(opacity=0);
+    transition:all 450ms ease-out 0;
+    transform:rotateY(180deg);
+    }
+    
+    .image:hover .image-overlay {
+    opacity:1;
+    filter:alpha(opacity=100);
+    transform:rotateY(0deg);
+    }
+    
+    .image-overlay .image-link {
+    position:relative;
+    top:50%;
+    display:inline-block;
+    margin-top:-20px;
+    }
+    
+    .btn {
+    display:inline-block;
+    background:#116a94;
+    border:2px solid #FFF;
+    border-radius:3px;
+    color:#fff;
+    font-weight:700;
+    font-size:13px;
+    text-decoration:none;
+    line-height:1;
+    position:relative;
+    text-transform:uppercase;
+    transition:all .3s;
+    margin:6px 0 0;
+    padding:14px 20px;
+    }
+    
+    .btn:hover {
+    color:#ccc;
+    }
+    
+    .projs {
+    text-align:left;
+    width:100%;
+    margin:0 0 0 23px;
+    padding:0;
+    }
+    
+    .projs .leftP,.projs .middleP,.projs .rightP {
+    width:30%;
+    text-align:center;
+    margin-right:10px;
+    margin-left:0;
+    padding-left:0;
+    }
+    
+    .leftP,.middleP,.rightP {
+    width:30%;
+    float:left;
+    border-radius:5px;
+    margin:0 0 0 15px;
+    }
+    
+    .dl {
+    float:right;
+    color:#116a94;
+    background-color:rgba(128,128,128,0.3);
+    border:1px solid #116a94;
+    border-radius:10px;
+    margin:0 70px 0 0;
+    padding:5px;
+    }
+    
+    .dl:hover {
+    color:#0e2029;
+    background-color:rgba(128,128,128,0.7);
+    }
+    
+    .rLeft p {
+    margin:0;
+    }
+    
+    .rLeft {
+    width:66%;
+    float:left;
+    margin:0;
+    }
+    
+    .rLeft ul {
+    margin:0;
+    padding:0;
+    }
+    
+    .rLeft h1,.rLeft h2 {
+    margin:2px 0 0;
+    }
+    
+    .rLeft h2 {
+    font-size:20px;
+    }
+    
+    .rLeft ul li ul li {
+    margin-bottom:10px;
+    border-bottom:1px solid rgba(128,128,128,0.5);
+    padding-bottom:5px;
+    }
+    
+    .rLeft h1 {
+    margin-bottom:10px;
+    color:#116a94;
+    }
+    
+    .rRight {
+    width:30%;
+    margin-left:10px;
+    float:right;
+    margin-top:50px;
+    border-left:1px solid rgba(128,128,128,0.5);
+    padding-left:10px;
+    }
+    
+    .lang li {
+    color:#000;
+    }
+    
+    .rRight ul {
+    width:50%;
+    float:left;
+    padding:0;
+    }
+    
+    .rRight h2 {
+    font-size:20px;
+    color:#116a94;
+    text-align:center;
+    margin:0 50px 10px 0;
+    }
+    
+    .rRight p {
+    width:100px;
+    border:1px solid gray;
+    border-radius:10px;
+    margin-bottom:10px;
+    text-align:center;
+    background-color:rgba(255,255,255,0.5);
+    padding:2px 2px 2px 5px;
+    }
+    
+    .lContact,.mContact,.rContact {
+    display:inline-block;
+    float:left;
+    width:33%;
+    }
+    
+    .contact h2 {
+    color:gray;
+    }
+    
+    .contact a {
+    text-decoration:none;
+    color:#116a94;
+    }
+    
+    .about,.Resume {
+    float:left;
+    width:100%;
+    text-align:left;
+    }
+    
+    .other p:hover,.rightLink a:hover,.contact a:hover {
+    color:#0e2029;
+    }
+    
+    .projs h1,.contact i {
+    color:#116a94;
+    }
+    
+    @media only screen and (max-width: 900px){
+    .other {
+    width:100%;
+    border-left:0;
+    margin:0;
+    }
+    
+    .links li {
+    width:100%;
+    }
+    
+    .Inform {
+    margin:0;
+    }
+    
+    .other ul {
+    border-left:0;
+    padding-left:2px;
+    }
+    }
+    
+    @media only screen and (max-width: 708px){
+    .other ul {
+    padding-left:2px;
+    border-left:0;
+    }
+    
+    .projs .leftP,.projs .middleP,.projs .rightP {
+    width:100%;
+    text-align:left;
+    margin:0;
+    }
+    
+    .projs {
+    margin-left:0;
+    }
+    
+    .Inform,.other {
+    margin:0;
+    }
+    
+    .left,.lContact,.mContact,.rContact {
+    width:100%;
+    }
+    }
+    
+    @media only screen and (max-width: 1110px){
+    .links li {
+    width:100%;
+    }
+    }
+    
+    @media only screen and (max-width: 1035px){
+    .rRight {
+    width:100%;
+    border-left:0;
+    float:left;
+    margin-left:0;
+    padding-left:0;
+    margin-top:5px;
+    }
+    
+    .rRight li {
+    margin-right:10px;
+    }
+    
+    .rRight h2 {
+    margin-left:0;
+    text-align:left;
+    margin-right:5px;
+    }
+    
+    .soft {
+    border-left:1px solid rgba(128,128,128,0.5);
+    margin-right:0;
+    width:30%;
+    }
+    
+    .soft h2 {
+    padding-left:30px;
+    }
+    
+    .soft li {
+    padding-left:25px;
+    }
+    
+    .soft ul {
+    padding-left:10px;
+    }
+    
+    .rRight ul,.ul lang {
+    width:40%;
+    }
+    }
