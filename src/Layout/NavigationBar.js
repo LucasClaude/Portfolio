@@ -5,7 +5,7 @@ import * as FontAwesome from 'react-icons/lib/fa';
 
 const NavBar = (props) => {
 
-    if(props.size > 900){
+    if(props.size > 976){
         
         return(
         
@@ -41,7 +41,7 @@ const NavBar = (props) => {
         );
         
             }
-   else if(props.size > 708 && props.size <= 900){
+   else if(props.size > 708 && props.size <= 976){
    
 return(
 
