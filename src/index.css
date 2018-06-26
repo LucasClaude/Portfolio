@@ -4,6 +4,7 @@ body {
   padding:0;
   background-color: #add8e6;
   z-index:1;
+  margin: 0px 10px 20px 10px;
   }
 
   .BigHeader i, .Header i{
@@ -26,7 +27,7 @@ body {
   
   .NavBar {
   color:gray;
-  padding-top:100px;
+  padding-top:50px;
   }
   
   .NavBar li {
